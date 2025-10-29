@@ -1,4 +1,8 @@
 site_name: Data Science
+
+repo_name: RedGamer887/ds-course-notes
+repo_url: https://github.com/RedGamer887/ds-course-notes
+
 theme:
   name: material
   language: ru
