@@ -1,0 +1,20 @@
+site_name: Data Science
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: blue
+      accent: pink
+    - scheme: slate
+      primary: blue
+      accent: pink
+nav:
+  - Курс Data Science: index.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
