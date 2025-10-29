@@ -9,23 +9,25 @@ theme:
   palette:
     - scheme: default
       primary: blue
-      accent: pink
+      accent: blue
       toggle:
         icon: material/weather-night
     - scheme: slate
       primary: blue
-      accent: pink
+      accent: blue
       toggle:
         icon: material/weather-sunny
   features:
     - palette
+    - content.code.copy
+    - toc.expand
+    - navigation.sections
 
 nav:
   - Курс Data Science: index.md
 markdown_extensions:
   - toc:
       permalink: true
-  - attr_list
   - admonition
   - codehilite
   - footnotes
@@ -34,6 +36,10 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      clickable_checkbox: true
